@@ -1,4 +1,5 @@
 # baike_spider 
+-----
  一个简单爬虫开发
  语言版本：python3.5.1
  功能说明：爬取百度百科词条和词条简介内容并输出到网页中
@@ -20,4 +21,3 @@
  HTML下载器：HTMLDownloader
  网页解析器：HtmlParser
  结果输出器：HtmlOutputer
-
