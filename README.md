@@ -1,9 +1,9 @@
-# baike_spider 一个简单爬虫开发
-# 语言版本：python3.5.1
-# 功能说明：爬取百度百科词条和词条简介内容并输出到网页中
-# 注：面向对象编程 全部采用对象来调用方法
-'''
-  程序执行流程：
+ baike_spider 一个简单爬虫开发
+ 语言版本：python3.5.1
+ 功能说明：爬取百度百科词条和词条简介内容并输出到网页中
+ 注：面向对象编程 全部采用对象来调用方法
+ 
+ 程序执行流程：
     1.将 入口URL（root_url） 添加到 URL管理器
     2.启动爬虫的循环
     3.获取 URL管理器 待爬取列表 中的一个URL并将其移出待爬取列表，添加到已爬取列表
@@ -13,9 +13,9 @@
     7.收集得到的页面内容,存入输出器，解析后输出
     8.循环3-7
     9.循环条件不符合退出循环时,将结果输出到html文件中
-'''
-# 模块设计
-# URL管理器：UrlManager
-# HTML下载器：HTMLDownloader
-# 网页解析器：HtmlParser
-# 结果输出器：HtmlOutputer
+
+ 模块设计：
+ URL管理器：UrlManager
+ HTML下载器：HTMLDownloader
+ 网页解析器：HtmlParser
+ 结果输出器：HtmlOutputer
