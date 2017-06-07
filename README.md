@@ -1,4 +1,5 @@
 # baike_spider 
+![](https://img.shields.io/badge/language-python-orange.svg)
 ![](http://img.shields.io/travis/jerryhanjj/baike_spider.svg)
 ![](https://img.shields.io/badge/platform-ALL-lightgrey.svg)
 ![](https://img.shields.io/badge/github-v1.0.0-519dd9.svg)
