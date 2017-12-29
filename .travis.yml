@@ -3,4 +3,4 @@ python: "3.5"
 sudo: enabled
 install: 
   - pip install beautifulsoup4 
-script: spider_main.py
+script: pytest
